@@ -4,11 +4,17 @@ This project is about identifying HIV indicators in Dutch clinical narrative dat
 The Jupyter notebook 'QuickUMLS Dut Eng and RegEx and Eval Scores' and the py-file 'Creating_rex_ex_list' can be downloaded. Note, before opening the notebook in the terminal type in: ulimit -n 4096. After that open the notebook. Otherwise, the notebook will be temporarily unavailable. 
 
 imports are:
+
 from pathlib import Path
+
 from quickumls import QuickUMLS
+
 import os 
+
 import re
+
 from collections import defaultdict
+
 import pandas as pd 
 
 The last cell of the notebook contains the variables with paths to the files. Below I explain the variables:
