@@ -6,15 +6,10 @@ The Jupyter notebook 'QuickUMLS Dut Eng and RegEx and Eval Scores' and the py-fi
 imports are:
 
 from pathlib import Path
-
 from quickumls import QuickUMLS
-
 import os 
-
 import re
-
 from collections import defaultdict
-
 import pandas as pd 
 
 The last cell of the notebook contains the variables with paths to the files. Below I explain the variables:
