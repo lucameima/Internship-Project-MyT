@@ -12,11 +12,12 @@ The Jupyter notebook 'QuickUMLS Dut Eng and RegEx and Eval Scores' and the py-fi
     The second column contains the HIV indicator. If an HIV indicator occurs multiple times in the same note, the row should be duplicated, e.g.:
       1. Note4.doc	longontsteking
       2. Note4.doc	longontsteking
+ Due to privacy regulations I cannot provide the above files. 
  
- The key argument combined means which versions of UMLS should be used. 
- Default is "yes" which means that English, Dutch versions of UMLS and regular expressions are used. 
- "nlen" means that English, Dutch versions of UMLS are used without regular expressions. 
- "nl" means that only the Dutch version of UMLS is used.
+ The key argument 'combined' in the function create_xls_file means which versions of UMLS should be used:
+ Default is "yes" which means that English, Dutch versions of UMLS and regular expressions are used;
+ "nlen" means that English, Dutch versions of UMLS are used without regular expressions;
+ "nl" means that only the Dutch version of UMLS is used;
  "en" means that only the English version of UMLS is used.
  
  This can be used for comparing the evaluations scores of the versions of UMLS with or without regular expressions. 
@@ -25,4 +26,4 @@ The Jupyter notebook 'QuickUMLS Dut Eng and RegEx and Eval Scores' and the py-fi
  
  After executing the notebook it should return recall, precision and f-scores of the identified HIV indicators by the Dutch and English version of QuickUMLS and regular expressions in the clinical notes tested against the manual annotated notes. 
     
- Due to privacy regulations I cannot provide the above files. 
+
