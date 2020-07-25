@@ -1,4 +1,4 @@
-# InternshipProjectMyT
+# Internship Project MyT
 
 This project is about identifying HIV indicators in Dutch clinical narrative data by using the string matching tools QuickUMLS and Regular Expresions in Python. 
 The Jupyter notebook 'QuickUMLS Dut Eng and RegEx and Eval Scores' and the py-file 'Creating_rex_ex_list' can be downloaded. Note, before opening the notebook in the terminal type in: ulimit -n 4096. After that open the notebook. Otherwise, the notebook will be temporarily unavailable. 
